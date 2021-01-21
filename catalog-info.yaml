@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "demo-app-brand-new"
+  description: "demo-app"
+  annotations:
+    github.com/project-slug: "https://github.com/leemills83/demo-app-brand-new"
+    backstage.io/techdocs-ref: github:https://github.com/https://github.com/leemills83/demo-app-brand-new
+spec:
+  type: website
+  lifecycle: experimental
+  owner: "leemills83"
